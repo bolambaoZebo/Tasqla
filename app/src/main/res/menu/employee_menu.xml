@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_join_manager"
+        android:title="Join Manager"
+        android:icon="@drawable/ic_baseline_person_add_24"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/action_completed_task_manager"
+        android:title="Done Manager"
+        android:icon="@drawable/ic_baseline_done_all_24"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/action_create_task_manager"
+        android:title="Create Manager"
+        android:icon="@drawable/ic_baseline_add_task_24"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/action_filter"
+        android:icon="@drawable/ic_baseline_filter_alt_24"
+        android:title=""
+        app:showAsAction="always"
+        >
+            <menu>
+                <item
+                    android:id="@+id/action_completed"
+                    android:title="Completed"
+                    />
+                <item
+                    android:id="@+id/action_approved"
+                    android:title="Approved"
+                    />
+                <item
+                    android:id="@+id/action_not_completed"
+                    android:title="Not completed"
+                    />
+            </menu>
+
+    </item>
+
+</menu>
